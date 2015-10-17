@@ -1,0 +1,103 @@
+body{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	margin: 0 auto;
+}
+.container{
+	width: 1024px;
+	background: #f0f0f0;
+
+}
+.topsmallheader{
+	height: 35px;
+	width: 100%;
+	background: #262626;
+	z-index: 10;
+	position: fixed;
+	border-bottom: 1px solid black;
+	border-top: 2px solid black;
+
+}
+.topsmallheader a{
+	height: 25px;
+	float: left;
+	text-decoration: none;
+	color: white;
+	margin-right: 10px;
+	margin-top: 2px;
+	padding-top: 2px;
+	font-family: verdana;
+}
+
+.banner{
+	padding-top:40px;
+	height: 500px;
+	background: black;
+	width: 1024px;
+	position: fixed;
+	margin-top: 7px;
+}
+.banner img{
+	width: 1024px;
+	height: 442px;
+}
+.headlines{
+	height: 680px;
+	width: 100%;
+	background: #8b8d92;
+	position: relative;
+	top:500px;
+}
+h3{
+	font-size: 40px;
+	font-family: helvetica;
+	color: #262626;
+}
+.headlines a{
+	text-decoration: none;
+	color: orange;
+}
+.headlines p{
+	font-size: 29px;
+	color: white;
+	font-family: helvetica;
+}
+
+.topsmallheader p{
+	font-family: helvetica;
+	font-size: 30px;
+	margin: 0 auto;
+	color: #f0f0f0;
+	background: #262626;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	float: left;
+}
+.headlines img{
+	float: left;
+	margin-left: 30px;
+	margin-top: 20px;
+	border: 2px solid black;
+	height: 450px;
+	width: 500px;
+}
+.headlines img:hover{
+	border: 2px solid orange;
+}
+.buy{
+	height: 100px;
+	width: 1015px;
+	background: #262626;
+	border: 3px solid #565656;
+}
+.buy a{
+	text-decoration: none;
+	color: white;
+	font-family: verdana;
+	font-size: 70px;
+}
+.buy:hover{
+	background: orange;
+};
